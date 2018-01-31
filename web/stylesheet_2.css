@@ -1,0 +1,52 @@
+.fillHeight
+{
+    width: 99%;
+    height: 99%;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+}
+.onTop
+{
+    position:absolute;
+    top:20px;
+    right: 40%;
+}
+.behind
+{
+    position: relative;
+}
+.onTopBottomOfPage
+{
+    position:absolute;
+    bottom:50px;
+    right: 100px;
+}
+.onTopBottomOfPage1
+{
+    position:absolute;
+    bottom: 130px;
+    right: 100px;
+}
+.onTopBottomOfPage2
+{
+    position:absolute;
+    bottom: 210px;
+    right: 100px;
+}
+.onTopBottomCenter
+{
+    position:absolute;
+    bottom:20px;
+    right: 40%;
+}
+@media (max-width: 600px) 
+{
+    .onTop
+    {
+        position:absolute;
+        top:120px;
+        right: 40%;
+    }
+}
