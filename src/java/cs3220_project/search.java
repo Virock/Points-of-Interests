@@ -50,7 +50,7 @@ public class search extends HttpServlet {
                         //locations.add(new Location(rs.getString("LONGITUDE"), rs.getString("LATITUDE"), rs.getInt("ID")));
                     }
                     //Send all these locations to the search.php page
-                    response.sendRedirect("https://virock.com.ng/tools/search.php?loc=" + loc + query);
+                    response.sendRedirect("https://virock.net/tools/search.php?loc=" + loc + query);
                     
                 } catch (Exception e) {
                     //If exception occurs, Send error code in url

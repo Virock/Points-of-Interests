@@ -39,7 +39,7 @@ public class main extends HttpServlet {
         //Get user's location, if the lon isn't in the url
         if (request.getParameter("lon") == null && request.getParameter("error") == null) {
             getServletContext().removeAttribute("longitude");
-            response.sendRedirect("https://virock.com.ng/tools/location.php");
+            response.sendRedirect("https://virock.net/tools/location.php");
         } else {
             //If the lon is in the url
             //If the user is searching, place search string
